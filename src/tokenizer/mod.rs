@@ -77,7 +77,7 @@ impl<'a> Tokenizer<'a> {
         self.punct(next_char, allow_html_comment_close)
     }
     /// get the next regex token from the js text, providing
-    /// the lenth of the already consumed token (this will be either 1 or 2)
+    /// the length of the already consumed token (this will be either 1 or 2)
     ///
     /// note: this should only be used after first getting `/` or `/=`
     /// from the `next` method.
